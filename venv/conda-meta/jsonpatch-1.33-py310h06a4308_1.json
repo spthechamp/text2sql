@@ -1,0 +1,142 @@
+{
+  "build": "py310h06a4308_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "jsonpointer >=1.9"
+  ],
+  "extracted_package_dir": "/home/sudhanshu-pandey/anaconda3/pkgs/jsonpatch-1.33-py310h06a4308_1",
+  "files": [
+    "bin/jsondiff",
+    "bin/jsonpatch",
+    "lib/python3.10/site-packages/__pycache__/jsonpatch.cpython-310.pyc",
+    "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/AUTHORS",
+    "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/LICENSE",
+    "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/METADATA",
+    "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/RECORD",
+    "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/WHEEL",
+    "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/jsonpatch.py"
+  ],
+  "fn": "jsonpatch-1.33-py310h06a4308_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/sudhanshu-pandey/anaconda3/pkgs/jsonpatch-1.33-py310h06a4308_1",
+    "type": 1
+  },
+  "md5": "37d54a44475726ff4fba1093add64ba7",
+  "name": "jsonpatch",
+  "package_tarball_full_path": "/home/sudhanshu-pandey/anaconda3/pkgs/jsonpatch-1.33-py310h06a4308_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/jsondiff",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/jsonpatch_1714483231291/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "72f3c2fe656441b260e9dcd1ebc156f6dc23761b36c0e2b70d3a9a356b8878b5",
+        "sha256_in_prefix": "9cb7d501832bafde629b89537905e483d94035dc97af9fc25d3d1623541569cf",
+        "size_in_bytes": 1447
+      },
+      {
+        "_path": "bin/jsonpatch",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/jsonpatch_1714483231291/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "411c7b0a353b6ba595cb670de8925d5a0269d253f135c3dfac761d379d25f420",
+        "sha256_in_prefix": "f9a2ce60e4dbfa38f32efefed22aee11ad89c0bc9796370d87920d7fed25d0da",
+        "size_in_bytes": 4108
+      },
+      {
+        "_path": "lib/python3.10/site-packages/__pycache__/jsonpatch.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "41bd22592604f72e48833a7a818103bb2c8acf1eaf6d9dbad32eb9311c081298",
+        "sha256_in_prefix": "41bd22592604f72e48833a7a818103bb2c8acf1eaf6d9dbad32eb9311c081298",
+        "size_in_bytes": 22419
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "84eb449c119b7c37a02a3ccc0c4979bee549c9ccdb2363e5604da1a382e318d4",
+        "sha256_in_prefix": "84eb449c119b7c37a02a3ccc0c4979bee549c9ccdb2363e5604da1a382e318d4",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "4393eb6733fa1e367f41769b382f4f1be7bf0daeb1e243ed92b3f5d8bafd236f",
+        "sha256_in_prefix": "4393eb6733fa1e367f41769b382f4f1be7bf0daeb1e243ed92b3f5d8bafd236f",
+        "size_in_bytes": 1481
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "72d0b9fa90d2f069da35faa7f0612e60e39d8c660150b6d7d6a735c5ef03e6fd",
+        "sha256_in_prefix": "72d0b9fa90d2f069da35faa7f0612e60e39d8c660150b6d7d6a735c5ef03e6fd",
+        "size_in_bytes": 2958
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "30f5f6dbf04ce613c5c2a965d41d15dab82f81c2964e8a1b8784552967051b1b",
+        "sha256_in_prefix": "30f5f6dbf04ce613c5c2a965d41d15dab82f81c2964e8a1b8784552967051b1b",
+        "size_in_bytes": 1031
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "89896fe5f5f7e7b3d0c914f6a3ab70d5b37e61c2851472aa07f2f01cee703fe8",
+        "sha256_in_prefix": "89896fe5f5f7e7b3d0c914f6a3ab70d5b37e61c2851472aa07f2f01cee703fe8",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "78b9ae753839c0eefcec46b6c656626958a302a53cd5a548c29f2ebed0e679fa",
+        "sha256_in_prefix": "78b9ae753839c0eefcec46b6c656626958a302a53cd5a548c29f2ebed0e679fa",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jsonpatch-1.33.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "cdcbe223b321e00bef3c1a6029907311d81b561fdec2c7ef4b6b77fb072c9cde",
+        "sha256_in_prefix": "cdcbe223b321e00bef3c1a6029907311d81b561fdec2c7ef4b6b77fb072c9cde",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.10/site-packages/jsonpatch.py",
+        "path_type": "hardlink",
+        "sha256": "57be766f2e6f8d4ddc79dfd49e17352ed7768e07284b5da4aca69210fb3ba5fe",
+        "sha256_in_prefix": "57be766f2e6f8d4ddc79dfd49e17352ed7768e07284b5da4aca69210fb3ba5fe",
+        "size_in_bytes": 29778
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4da95eaea4b176a572f5d155420a9452a988b7393df67847582a1d0b5ffab9a5",
+  "size": 31909,
+  "subdir": "linux-64",
+  "timestamp": 1714483327000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/jsonpatch-1.33-py310h06a4308_1.conda",
+  "version": "1.33"
+}

@@ -1,0 +1,138 @@
+{
+  "build": "py310h4aa5aa6_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/home/sudhanshu-pandey/anaconda3/pkgs/orjson-3.10.14-py310h4aa5aa6_0",
+  "files": [
+    "lib/python3.10/site-packages/orjson-3.10.14.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/orjson-3.10.14.dist-info/METADATA",
+    "lib/python3.10/site-packages/orjson-3.10.14.dist-info/RECORD",
+    "lib/python3.10/site-packages/orjson-3.10.14.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/orjson-3.10.14.dist-info/WHEEL",
+    "lib/python3.10/site-packages/orjson-3.10.14.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/orjson-3.10.14.dist-info/license_files/LICENSE-APACHE",
+    "lib/python3.10/site-packages/orjson-3.10.14.dist-info/license_files/LICENSE-MIT",
+    "lib/python3.10/site-packages/orjson/__init__.py",
+    "lib/python3.10/site-packages/orjson/__init__.pyi",
+    "lib/python3.10/site-packages/orjson/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/orjson/orjson.cpython-310-x86_64-linux-gnu.so",
+    "lib/python3.10/site-packages/orjson/py.typed"
+  ],
+  "fn": "orjson-3.10.14-py310h4aa5aa6_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/sudhanshu-pandey/anaconda3/pkgs/orjson-3.10.14-py310h4aa5aa6_0",
+    "type": 1
+  },
+  "md5": "625d6d7aaf0a4b7412dfcffbeb1b6f45",
+  "name": "orjson",
+  "package_tarball_full_path": "/home/sudhanshu-pandey/anaconda3/pkgs/orjson-3.10.14-py310h4aa5aa6_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/orjson-3.10.14.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/orjson-3.10.14.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8cde58660ce5f1841a7b2396f3cf748a034cbfcb3180f64dfccc81a54646951e",
+        "sha256_in_prefix": "8cde58660ce5f1841a7b2396f3cf748a034cbfcb3180f64dfccc81a54646951e",
+        "size_in_bytes": 41792
+      },
+      {
+        "_path": "lib/python3.10/site-packages/orjson-3.10.14.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "40677494f51cf09207866a675136633957fb346a05d42666f73119faa8acd1a0",
+        "sha256_in_prefix": "40677494f51cf09207866a675136633957fb346a05d42666f73119faa8acd1a0",
+        "size_in_bytes": 1080
+      },
+      {
+        "_path": "lib/python3.10/site-packages/orjson-3.10.14.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/orjson-3.10.14.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c1ebdd9676b75bdac5146527b9149c960ad3d90236a872134cefb8d66f88f91c",
+        "sha256_in_prefix": "c1ebdd9676b75bdac5146527b9149c960ad3d90236a872134cefb8d66f88f91c",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "lib/python3.10/site-packages/orjson-3.10.14.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "4cdcfb4abfa0146b7c67ddf326a02dafd54e45b7e62b54485a6581af9c8774b2",
+        "sha256_in_prefix": "4cdcfb4abfa0146b7c67ddf326a02dafd54e45b7e62b54485a6581af9c8774b2",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "lib/python3.10/site-packages/orjson-3.10.14.dist-info/license_files/LICENSE-APACHE",
+        "path_type": "hardlink",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+        "sha256_in_prefix": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+        "size_in_bytes": 10847
+      },
+      {
+        "_path": "lib/python3.10/site-packages/orjson-3.10.14.dist-info/license_files/LICENSE-MIT",
+        "path_type": "hardlink",
+        "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+        "sha256_in_prefix": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+        "size_in_bytes": 1023
+      },
+      {
+        "_path": "lib/python3.10/site-packages/orjson/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d5276b282a14fce1c35d7639e0ba97f50fb5d8c8e231689cdebe760a9fc26170",
+        "sha256_in_prefix": "d5276b282a14fce1c35d7639e0ba97f50fb5d8c8e231689cdebe760a9fc26170",
+        "size_in_bytes": 589
+      },
+      {
+        "_path": "lib/python3.10/site-packages/orjson/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "cf5326d458ee2d6ae7c98d36f20b2adca63f6e14aeded653ef9174259a8ddbea",
+        "sha256_in_prefix": "cf5326d458ee2d6ae7c98d36f20b2adca63f6e14aeded653ef9174259a8ddbea",
+        "size_in_bytes": 761
+      },
+      {
+        "_path": "lib/python3.10/site-packages/orjson/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "22bab7f02bf502758c8e9585f017eed6eb6a4b2b0b88b87cac3157c97252f03a",
+        "sha256_in_prefix": "22bab7f02bf502758c8e9585f017eed6eb6a4b2b0b88b87cac3157c97252f03a",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "lib/python3.10/site-packages/orjson/orjson.cpython-310-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "cc65d8278256e6b47d1ac74b66c72671feb77b33eb625197a843a2319bd8125f",
+        "sha256_in_prefix": "cc65d8278256e6b47d1ac74b66c72671feb77b33eb625197a843a2319bd8125f",
+        "size_in_bytes": 661488
+      },
+      {
+        "_path": "lib/python3.10/site-packages/orjson/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e7427e58e9b0f26d0d6104e38b1abc467af9aa4245d60467acb5bc07f23b866a",
+  "size": 319046,
+  "subdir": "linux-64",
+  "timestamp": 1737039374000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/orjson-3.10.14-py310h4aa5aa6_0.conda",
+  "version": "3.10.14"
+}

@@ -1,0 +1,51 @@
+CREATE TABLE customer_tb (
+	`CustomerID` VARCHAR(10), 
+	`Gender` VARCHAR(10), 
+	`Age` INTEGER, 
+	`JobStatus` VARCHAR(50), 
+	`Profession` VARCHAR(50), 
+	`AnnualIncome` DECIMAL(10, 2)
+)DEFAULT CHARSET=utf8mb4 ENGINE=InnoDB COLLATE utf8mb4_0900_ai_ci
+
+/*
+10 rows from customer_tb table:
+CustomerID	Gender	Age	JobStatus	Profession	AnnualIncome
+CUST001	Male	34	Employed	Engineer	500000.00
+CUST002	Female	26	Employed	Teacher	300000.00
+CUST003	Male	50	Employed	Engineer	25000000.00
+CUST004	Male	37	Unemployed	None	30000.00
+CUST005	Male	30	Employed	Doctor	550000.00
+CUST006	Female	45	Employed	Teacher	500000.00
+CUST007	Male	46	Employed	Scientist	5000000.00
+CUST008	Male	30	Employed	Chef	400000.00
+CUST009	Male	63	Employed	Businessman	3000000.00
+CUST010	Female	52	Unemployed	None	50000.00
+*/
+
+
+CREATE TABLE sales_tb (
+	`TransactionID` INTEGER, 
+	`Date` DATE, 
+	`CustomerID` VARCHAR(10), 
+	`Gender` VARCHAR(10), 
+	`Age` INTEGER, 
+	`ProductCategory` VARCHAR(50), 
+	`Quantity` INTEGER, 
+	`PriceperUnit` DECIMAL(10, 2), 
+	`TotalAmount` DECIMAL(10, 2)
+)DEFAULT CHARSET=utf8mb4 ENGINE=InnoDB COLLATE utf8mb4_0900_ai_ci
+
+/*
+10 rows from sales_tb table:
+TransactionID	Date	CustomerID	Gender	Age	ProductCategory	Quantity	PriceperUnit	TotalAmount
+1	2023-11-24	CUST001	Male	34	Beauty	3	50.00	150.00
+2	2023-02-27	CUST002	Female	26	Clothing	2	500.00	1000.00
+3	2023-01-13	CUST003	Male	50	Electronics	1	30.00	30.00
+4	2023-05-21	CUST004	Male	37	Clothing	1	500.00	500.00
+5	2023-05-06	CUST005	Male	30	Beauty	2	50.00	100.00
+6	2023-04-25	CUST006	Female	45	Beauty	1	30.00	30.00
+7	2023-03-13	CUST007	Male	46	Clothing	2	25.00	50.00
+8	2023-02-22	CUST008	Male	30	Electronics	4	25.00	100.00
+9	2023-12-13	CUST009	Male	63	Electronics	2	300.00	600.00
+10	2023-10-07	CUST010	Female	52	Clothing	4	50.00	200.00
+*/
