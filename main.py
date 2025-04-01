@@ -11,7 +11,7 @@ st.title('NL to SQL Query Generator')
 st.caption("NOTE: This is an AI model that takes schema of a database and generates a SQL query based on the questions asked to it.")
 
 schema = st.text_area("Provide schema of your database here:", value=text)
-question = st.text_input("Ask your question here:", value="How many engineers bought beauty product?")
+question = st.text_input("Ask your question here:", value="what are the name, title and department number of the employees working in technology department who live in new york city and having salary more than the average salary and hired in the year 1990")
 generate_button = st.button("Generate")
 
 llm = ChatGroq(
