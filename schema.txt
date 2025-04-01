@@ -1,3 +1,5 @@
+CREATE DATABASE retail_sales_db;
+
 CREATE TABLE customer_tb (
 	`CustomerID` VARCHAR(10), 
 	`Gender` VARCHAR(10), 
