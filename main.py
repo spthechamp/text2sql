@@ -22,7 +22,6 @@ llm = ChatGroq(
     max_retries=2
 )
 
-
 prompt = ChatPromptTemplate.from_messages(
     [
         (
