@@ -32,7 +32,6 @@ prompt = ChatPromptTemplate.from_messages(
             "2. If the instruction is unrelated to the database schema, ambiguous, or lacks enough information to generate an SQL query, respond only with 'None'. "
             "3. Do not make assumptions about missing information or attempt to infer a schema that is not explicitly given. "
             "4. If any entity or field mentioned in the instruction is not present in the schema, reply strictly with 'None'. "
-            "5. Ensure that the generated SQL query includes the database name explicitly in the format `database_name.table_name` for all table references."  
             "Database schema: {schema}.",
         ),
         ("human", "{instruction}"),
