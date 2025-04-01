@@ -22,6 +22,7 @@ llm = ChatGroq(
     max_retries=2
 )
 
+
 prompt = ChatPromptTemplate.from_messages(
     [
         (
@@ -32,6 +33,12 @@ prompt = ChatPromptTemplate.from_messages(
             "2. If the instruction is unrelated to the database schema, ambiguous, or lacks enough information to generate an SQL query, respond only with 'None'. "
             "3. Do not make assumptions about missing information or attempt to infer a schema that is not explicitly given. "
             "4. If any entity or field mentioned in the instruction is not present in the schema, reply strictly with 'None'. "
+            "5. Always include the database name before table names in the format `database_name.table_name`. "
+            "6. Use proper SQL joins when querying multiple tables and ensure correct relationships between them based on the schema. "
+            "7. When using aggregation (such as `AVG`, `COUNT`), ensure the correct table reference is used to avoid ambiguity. "
+            "8. When filtering based on conditions, ensure that the correct columns and tables are used to avoid incorrect joins or missing constraints. "
+            "9. Ensure that subqueries do not reference tables incorrectly or introduce aliasing issues. "
+            "10. If the query requires filtering based on the latest record (e.g., salary history), include `ORDER BY date_column DESC LIMIT 1` where necessary."
             "Database schema: {schema}.",
         ),
         ("human", "{instruction}"),
