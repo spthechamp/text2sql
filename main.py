@@ -14,8 +14,10 @@ schema = st.text_area("Provide schema of your database here:", value=text)
 question = st.text_input("Ask your question here:", value="what are the name, title and department number of the employees working in technology department who live in new york city and having salary more than the average salary and hired in the year 1990")
 generate_button = st.button("Generate")
 
+model = "Llama-3.3-70b-Versatile"
+
 llm = ChatGroq(
-    model="gemma2-9b-it",
+    model=model,
     temperature=0,
     max_tokens=None,
     timeout=None,
