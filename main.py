@@ -15,7 +15,7 @@ question = st.text_input("Ask your question here:", value="what are the name, ti
 generate_button = st.button("Generate")
 
 llm = ChatGroq(
-    model="Llama-3.3-70b-Versatile",
+    model="gemma2-9b-it",
     temperature=0,
     max_tokens=None,
     timeout=None,
