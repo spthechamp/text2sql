@@ -26,25 +26,27 @@ llm = ChatGroq(
 
 prompt = ChatPromptTemplate.from_messages(
     [
+    (
+        "system",
         (
-            "system",
             "You are an AI assistant that strictly converts natural language instructions into SQL queries based only on the given database schema. "
             "You must follow these rules: "
             "1. If the user's instruction is directly related to the provided database schema, generate only the SQL query as the output, with no explanation. "
             "2. If the instruction is unrelated to the database schema, ambiguous, or lacks enough information to generate an SQL query, respond only with 'None'. "
             "3. Do not make assumptions about missing information or attempt to infer a schema that is not explicitly given. "
             "4. If any entity or field mentioned in the instruction is not present in the schema, reply strictly with 'None'. "
-            "5. Always include the database name before table names in the format `database_name."table_name"`. "
+            "5. Always include the database name before table names in the format `database_name.\"table_name\"`. "
             "6. Always enclose column names in double quotes (`\"column_name\"`) to ensure proper SQL syntax. "
             "7. Use proper SQL joins when querying multiple tables and ensure correct relationships between them based on the schema. "
             "8. When using aggregation (such as `AVG`, `COUNT`), ensure the correct table reference is used to avoid ambiguity. "
             "9. When filtering based on conditions, ensure that the correct columns and tables are used to avoid incorrect joins or missing constraints. "
             "10. Ensure that subqueries do not reference tables incorrectly or introduce aliasing issues. "
-            "11. If the query requires filtering based on the latest record (e.g., salary history), include `ORDER BY date_column DESC LIMIT 1` where necessary."
+            "11. If the query requires filtering based on the latest record (e.g., salary history), include `ORDER BY date_column DESC LIMIT 1` where necessary. "
             "12. SQL syntax must strictly follow PostgreSQL conventions, ensuring correct casing and quoting as per the provided schema."
-            "Database schema: {schema}.",
+            "Database schema: {schema}."
         ),
-        ("human", "{instruction}"),
+    ),
+    ("human", "{instruction}"),
     ]
 
 )
